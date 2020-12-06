@@ -1,4 +1,7 @@
 language = "python3"
 #run = "python3 exercise_13.py"
 #run = "python3 funkcja.py"
-run = "python3 haslo.py"
+#run = "python3 haslo.py"
+#run = "python3 calculator.py"
+#run = "python3 test_calculator.py"
+run = "pytest test_calculator.py"
