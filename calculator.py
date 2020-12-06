@@ -3,4 +3,12 @@ def calculate(a, b, operacja):
     return a + b
   if operacja == "-":
     return a - b
-  return 0
+  if operacja == "*":
+    return a * b
+  if operacja == "/":
+    return a / b
+  if operacja == "%":
+    return a / b
+  if operacja == "^":
+    return a^b
+  return 0 
