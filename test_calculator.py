@@ -21,3 +21,4 @@ class TestCalculator(unittest.TestCase):
   def test_potega(self):
     po = calculate(3, 2, "^")
     self.assertEqual(po, 9)
+    print(po)
