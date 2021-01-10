@@ -31,9 +31,20 @@ class Czlowiek():
     #print("Inicjalizacja instancji klasy Człowiek")
     print("Tworzymy człowieka o imieniu", imie)
     self.imie = imie
+
+  def inftoduce_your(self):
+    print("Czy, jestem ", self.imie, "i jestem gatunku", self.gatunek)
     
 #Tworzenie obiektów (instancji klasy Czlowiek)
 adam=Czlowiek('Adam') #adam.imie="Adam"
 ewa=Czlowiek('Ewa') #ewa.imie="Ewa"
+kain=Czlowiek("Kain")
+
+adam.inftoduce_your()
+print(adam.imie)
+print(adam.gatunek)
+
+# kain.imie = "Marcin"
+# print(kain.imie)
 
 #print(dir(ewa))
